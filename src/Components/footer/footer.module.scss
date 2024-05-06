@@ -1,0 +1,34 @@
+.footer {
+  height: var(--footer-height);
+  //align-items: center;
+  color: #ffffff;
+  position: relative;
+  background-color: #0067A3;
+  margin: 0;
+  flex-shrink: 0;
+  span:last-of-type {
+    margin-left: 24px;
+  }
+}
+ span {
+
+ }
+.footer__tasks_active{
+  font-size: 18px;
+  margin-left: 21px;
+  position: relative;
+  top: 17px;
+}
+.footer__tasks_finished{
+  font-size: 18px;
+  margin-left: 36px;
+  top: 17px;
+  position: relative;
+}
+.footer__author{
+  //color: white;
+  font-size: 18px;
+  margin-top: 17px;
+  position: absolute;
+  right:19px;
+}

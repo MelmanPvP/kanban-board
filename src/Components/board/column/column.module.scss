@@ -31,5 +31,20 @@
       padding: 12px 6px;
     }
   }
-
+  .button {
+    color:#5E6C84;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .button:hover {
+    background: white;
+  }
+  .button_active{
+    color:white;
+    background: #0079BF;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
 }

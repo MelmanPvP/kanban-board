@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  .chevron {
+    &.up > svg {
+      transform: scaleY(-1);
+    }
+  }
+
+  .menu {
+    background: white;
+    width: 134px;
+    height: 60px;
+    z-index: 1;
+    position: absolute;
+    right: 9px;
+    top:51px;
+    border-radius:5px ;
+    gap: 10px;
+  }
+  .menu__text_1{
+    width: 134px;
+    height: 30px;
+    margin: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color:black;
+  }
+  .menu__text_2{
+    width: 134px;
+    height: 30px;
+    margin: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    color:black;
+  }
+  .menu__text_1:hover,.menu__text_2:hover{
+    background:#EBECF0 ;
+  }
+}
