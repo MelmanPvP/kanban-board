@@ -6,7 +6,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import Descrcard from "./Components/board/descr_card/descr_card";
+import DescrCard from "./Components/board/descr_card/descr_card";
 
 const router = createBrowserRouter([
     {
@@ -14,8 +14,8 @@ const router = createBrowserRouter([
         element: <Board/>
     },
     {
-        path: "/tasks/:cardId",
-        element: <Descrcard/>
+        path: "/task/:cardId",
+        element: <DescrCard/>
     }
 ])
 

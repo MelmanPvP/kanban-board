@@ -41,7 +41,7 @@ export default function Column (props) {
 
                     {isNewTaskInputShown &&
                         <div>
-                            <input placeholder='please enter a task' onInput={onInputCard} />
+                            <input placeholder='Enter a task' onInput={onInputCard} />
                         </div>
                     }
 

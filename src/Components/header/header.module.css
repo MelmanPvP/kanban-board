@@ -1,0 +1,18 @@
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #0067A3;
+  flex-shrink: 0; }
+
+.header__text {
+  color: white;
+  font-size: 28px;
+  position: relative;
+  margin-left: 20px; }
+
+/*# sourceMappingURL=header.module.css.map */

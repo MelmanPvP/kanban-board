@@ -14,7 +14,7 @@ export default function DescrCard  ()  {
         if (cardId) {
             setTask(getTaskById(cardId))
         }
-    }, [cardId,getTaskById])
+    }, [cardId, getTaskById])
 
     const navigateBack = () => navigate(-1);
 
@@ -41,11 +41,11 @@ export default function DescrCard  ()  {
                     />
                 </div>
             }
-            <Button className={css['button-close']} onClick={navigateBack}>
+            <Button className={css.button_close} onClick={navigateBack}>
                 <IconRemove/>
             </Button>
-            <div className={css.button}>
-                <button onClick={() => {
+            <div className={css.footer}>
+                <button  className={css.button} onClick={() => {
                     updateTask(task);
                     navigateBack();
                 }}>Save Card</button>

@@ -4,7 +4,7 @@ import Button from "../../../buttons/button/button";
 import {useNavigate} from "react-router-dom";
 
 export default function Card(props) {
-    const navigate = useNavigate;
+    const navigate = useNavigate();
 
 
     return (

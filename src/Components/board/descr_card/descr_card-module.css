@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 24px 40px; }
+  .card .body {
+    padding: 10px; }
+  .card textarea {
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
+  .card .name {
+    background-color: #efefef;
+    outline: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    min-height: 48px; }
+    .card .name:focus {
+      outline: 1px solid black; }
+  .card .description {
+    margin-top: 24px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    min-height: 96px; }
+    .card .description:focus {
+      outline: 1px solid black; }
+  .card .button-close {
+    position: absolute;
+    top: 12px;
+    right: 12px; }
+
+.button {
+  color: #5E6C84;
+  border: none;
+  background: none;
+  cursor: pointer; }
+  .button:hover {
+    color: white; }
+
+/*# sourceMappingURL=descr_card-module.css.map */

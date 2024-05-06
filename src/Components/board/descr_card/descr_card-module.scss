@@ -44,14 +44,15 @@
     top: 12px;
     right: 12px;
   }
-  .button {
-    color: #5E6C84;
-    border: none;
-    background: none;
-    cursor: pointer;
-    &:hover{
-      color:white;
-    }
-  }
 
+
+}
+.button {
+  color: #5E6C84;
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:hover{
+    color:white;
+  }
 }
