@@ -2,7 +2,7 @@ import {useNavigate, useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import {useTasks} from "../../../Hooks/task/use-task";
 import Button from "../../buttons/button/button";
-import css from './descr_card-module.scss'
+import css from './descr_card.module.scss'
 import {IconRemove} from "../../icons/icon-remove";
 export default function DescrCard  ()  {
     const navigate = useNavigate();
@@ -14,7 +14,7 @@ export default function DescrCard  ()  {
         if (cardId) {
             setTask(getTaskById(cardId))
         }
-    }, [cardId, getTaskById])
+    }, [cardId])
 
     const navigateBack = () => navigate(-1);
 
@@ -41,11 +41,11 @@ export default function DescrCard  ()  {
                     />
                 </div>
             }
-            <Button className={css.button_close} onClick={navigateBack}>
+            <Button className={css['button-close']} onClick={navigateBack}>
                 <IconRemove/>
             </Button>
             <div className={css.footer}>
-                <button  className={css.button} onClick={() => {
+                <button className={css.button} onClick={() => {
                     updateTask(task);
                     navigateBack();
                 }}>Save Card</button>
